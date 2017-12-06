@@ -1,6 +1,6 @@
 package AbstractFactoryPattern;
 
-public class Mrinda implements Cold {
+public class Dew implements Cold {
 
     @Override
     public float Rate() {

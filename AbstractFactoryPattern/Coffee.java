@@ -1,6 +1,6 @@
 package AbstractFactoryPattern;
 
-public class Coffe implements Hot {
+public class Coffee implements Hot {
 
     @Override
     public int sugarLevel() {

@@ -1,6 +1,6 @@
 package AbstractFactoryPattern;
 
-public class ColdPattern extends AbstractLiqued {
+public class ColdPattern extends AbstractLiquid {
 
     @Override
     public Hot hotDrink(String drink) {
@@ -14,8 +14,8 @@ public class ColdPattern extends AbstractLiqued {
                 return new Cock();
             case "Pepsi":
                 return new Pepsi();
-            case "Mrinda":
-                return new Mrinda();
+            case "Dew":
+                return new Dew();
 
         }
 

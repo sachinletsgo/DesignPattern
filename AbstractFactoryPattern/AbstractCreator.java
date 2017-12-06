@@ -1,14 +1,14 @@
 package AbstractFactoryPattern;
 
 public class AbstractCreator {
-    public static AbstractLiqued getFactory(String choice){
+    public static AbstractLiquid getFactory(String choice){
 
         switch (choice){
             case "Hot":
                return new HotPattern();
 
             case "Cold":
-              return   new ColdPattern();
+              return new ColdPattern();
 
 
         }

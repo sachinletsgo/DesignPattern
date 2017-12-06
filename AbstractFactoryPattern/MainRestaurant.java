@@ -4,13 +4,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MainResturant {
+public class MainRestaurant {
     public static void main(String args[]) throws IOException {
 
         System.out.println(" Do you want Hot or Cold?");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String hotColdChoice = br.readLine();
-        AbstractLiqued abstractLiqued = AbstractCreator.getFactory(hotColdChoice);
+        AbstractLiquid abstractLiqued = AbstractCreator.getFactory(hotColdChoice);
         switch (hotColdChoice){
             case "Hot":
                 System.out.println("What do you want in hot?");
